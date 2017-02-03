@@ -2,14 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Sign up and join the cloud with AnalogSea">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>AnalogSea</title>
-    <title></title>
   </head>
   <body>
-
+    <header>
+      <img src="logo.png" alt="AnalogSea Logo" class="logo">
+    </header>
+    <section class="formarea">
+      <form class="signup" action="/signup/" method="post">
+        <fieldset name="sign-up">
+          <h1>Sign Up</h1>
+          <label for="email" required>Email</label>
+          <input type="email" name="email" id="email" placeholder="foo@bar.com" required>
+          <label for="password" required>Password</label>
+          <input type="password" name="passsword" id="password" placeholder="1234passwOrd" required>
+        </fieldset>
+        <button type="submit">Sign up</button>
+      </form>
+      <a href="/forgot-password/new" class="forgot">Forgot password?</a>
+    </section>
+    <section>
+      <p class="login">Already have an account? <a href="/login" class="login-link">Log In</a></p>
+    </section>
   </body>
 </html>
