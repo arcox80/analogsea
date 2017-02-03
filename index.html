@@ -14,16 +14,20 @@
     </header>
     <section class="formarea">
       <form class="signup" action="/signup/" method="post">
-        <fieldset name="sign-up">
+        <div class="title">
           <h1>Sign Up</h1>
+        </div>
+        <fieldset name="sign-up">
           <label for="email" required>Email</label>
-          <input type="email" name="email" id="email" placeholder="foo@bar.com" required>
+          <input type="email" name="email" id="email" placeholder="foo@bar.com" required class="uniform field">
           <label for="password" required>Password</label>
-          <input type="password" name="passsword" id="password" placeholder="1234passwOrd" required>
+          <input type="password" name="passsword" id="password" placeholder="1234passwOrd" required class="uniform field">
         </fieldset>
-        <button type="submit">Sign up</button>
+        <button type="submit" class="uniform">Sign up</button>
       </form>
-      <a href="/forgot-password/new" class="forgot">Forgot password?</a>
+      <div class="forgot">
+        <a href="/forgot-password/new" class="forgot-link">Forgot password?</a>
+      </div>
     </section>
     <section>
       <p class="login">Already have an account? <a href="/login" class="login-link">Log In</a></p>
