@@ -4,7 +4,6 @@
 
 body {
   background-color: #298eea;
-  font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -22,22 +21,25 @@ body {
   margin-right: auto;
   margin-top: 30px;
   border-radius: 3px;
-  padding: 20px 40px 40px 40px;
+  padding: 16px 40px 40px 40px;
 }
 
 .title {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 h1 {
   text-align: center;
   color: #565656;
+  font-weight: 300;
+  font-size: 35px;
 }
 
 fieldset {
   border-style: none;
   margin-left: 0;
   padding-left: 0;
+  padding-bottom: 0;
 }
 
 .uniform {
@@ -49,8 +51,9 @@ fieldset {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 3px;
-  border-width: 2px solid lightgray;
+  border: 2px solid #e7e7e7;
   background: #fcfcfc;
+  font-size: 18px;
 }
 
 button {
@@ -81,6 +84,7 @@ button:hover {
   text-align: center;
   font-weight: bold;
   color: white;
+  margin-top: 20px;
 }
 
 .login-link {
